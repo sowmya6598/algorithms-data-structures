@@ -1,4 +1,4 @@
-# Advanced Algorithms & Data Strictures
+# Advanced Algorithms & Data Structures
 #### Table of Contents:
 
 - Dijkstra Algorithm
