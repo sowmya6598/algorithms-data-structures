@@ -21,7 +21,7 @@ double dist(Point P, Point P);double dist(Edge E, Point P);double dist(Edge E1, 
 double dist(Edge E, Face F);double dist(Face P, Point P);double dist(Face f1, Face f2);double dist(Solid S1, Solid S2);
 ```
 
-2a. Test dist(Face f1, Face f2) for two Faces given below:
+2. Test dist(Face f1, Face f2) for two Faces given below:
 
 ```
 1.0; 0.0; 0.0
@@ -34,7 +34,7 @@ double dist(Edge E, Face F);double dist(Face P, Point P);double dist(Face f1, Fa
 ```
 
 
-2b. Test implemented procedures by launching dist(Solid S1, Solid S2) for two solids given in this file (plain text file).
+3. Test implemented procedures by launching dist(Solid S1, Solid S2) for two solids given in this file (plain text file).
 
 Remark. The file format is following:
 
