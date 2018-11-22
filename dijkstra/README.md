@@ -10,12 +10,9 @@
    (source vertex index;destination vertex index;edge weight)
    ```
    
-3. Find :
-       the shortest distance between vertices 1 and 20
-       all vertices on the shortest path (incl. the first and the last node, i.e., 1 and 20)
-      
-
-
-
-
+3. Find:
+    - the shortest distance between vertices 1 and 20
+    - all vertices on the shortest path (incl. the first and the last node, i.e., 1 and 20)
+<br>  
+<br>
 ![alt text](http://galaxy.agh.edu.pl/~sedziwy/wordpress/wp-content/uploads/YC8LA.gif)
