@@ -20,3 +20,6 @@
 
 
 ![alt text](http://galaxy.agh.edu.pl/~sedziwy/wordpress/wp-content/uploads/YC8LA.gif)
+
+
+The example of a weighted directed graph. Numbers inside circles (graph nodes) represent node indices; arrows represent directed edges of the graph; the numbers accompanying edges are referred to as their weights.
