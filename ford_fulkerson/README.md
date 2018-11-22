@@ -10,7 +10,7 @@ Implement the following F-F algorithm pseudocode
 
 ### FFA INPUT
 
-'''
+```
 G=(V,E,c) - network graph
 
 c:V×V→R - network capacity matrix
@@ -18,24 +18,25 @@ c:V×V→R - network capacity matrix
 s - source vertex
 
 t - target vertex
-'''
+```
 
 ### FFA OUTPUT
 
-'''
+```
 f:V×V→R - flow matrix
-'''
+```
 
 Remark: The graph Gf=(V,Ef,cf) used below is called a residual network, i.e., a graph such that  ∀(u,v)∈V×V:cf(u,v)=c(u,v)−f(u,v)>0. Gf contains all vertices of G and those edges of G for which a maximum flow has not been reached so far. The algorithm's performance is aimed at increasing flows f in G up to the moment when there is no path from s to t in a residual graph, i.e., no further flow growth is possible.
 
-'''Ford–Fulkerson(G=(V,E,c),s,t)
+```
+Ford–Fulkerson(G=(V,E,c),s,t)
 f(u,v) \leftarrow 0 for all edges (u,v)
 while exists a path  p from s to t in the graph Gf , such that cf(u,v)>0 for all edges belonging to p:
 Find c_f(p) = \min\{c_f(u,v) : (u,v) \in p\}
 For each (u,v) \in p
 f(u,v) \leftarrow f(u,v) + c_f(p)
 f(v,u) \leftarrow f(v,u) - c_f(p)
-'''
+```
 
 ## Exercise 2
 
