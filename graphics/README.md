@@ -14,14 +14,12 @@ struct Edge {Point v1, v2;}
 struct Solid {Face F[]; int size;}
 ```
 
-
 1. Write the set of functions computing distances between various types of geometric objects (see this [link](http://geomalgorithms.com/algorithms.html) for tips):
 
 ```
 double dist(Point P, Point P);double dist(Edge E, Point P);double dist(Edge E1, Edge E2);
 double dist(Edge E, Face F);double dist(Face P, Point P);double dist(Face f1, Face f2);double dist(Solid S1, Solid S2);
 ```
-
 
 2a. Test dist(Face f1, Face f2) for two Faces given below:
 
