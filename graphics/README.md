@@ -1,9 +1,9 @@
 # Algorithms in Computer Graphics
 
 In this exercise you will implement functions being frequently used in computer graphics, CAD systems, design software etc.
-We deal with a 3D solid which is assumed to be given as an array, say F, of triangles (faces) forming its surface:
+We deal with a 3D solid which is assumed to be given as an array, say ***F***, of triangles (faces) forming its surface:
 
-F[1....N], where N is a number of faces. In turn, each face F[i] (of the type Face) is a triple of points [x,y,z]  (of the type Point) of 3D space. Additionally we define the Edge structure holding solid/face edges.
+***F[1....N]***, where N is a number of faces. In turn, each face F[i] (of the type ***Face***) is a triple of points [x,y,z]  (of the type ***Point***) of 3D space. Additionally we define the ***Edge*** structure holding solid/face edges.
 
 The main structures are given below:
 
