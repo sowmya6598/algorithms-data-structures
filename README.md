@@ -3,5 +3,7 @@
 
 - Dijkstra Algorithm
 - Ford-Fulkerson Algorithm
+- Algorithms in Computer Graphics
+- Parallel Algorithms
 
 
