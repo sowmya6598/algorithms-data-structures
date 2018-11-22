@@ -15,7 +15,7 @@ struct Solid {Face F[]; int size;}
 ```
 
 
-1. Wirte the set of functions computing distances between various types of geometric objects (see this [link](http://geomalgorithms.com/algorithms.html) for tips):
+1. Write the set of functions computing distances between various types of geometric objects (see this [link](http://geomalgorithms.com/algorithms.html) for tips):
 
 ```
 double dist(Point P, Point P);double dist(Edge E, Point P);double dist(Edge E1, Edge E2);
